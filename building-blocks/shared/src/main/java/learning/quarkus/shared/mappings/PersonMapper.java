@@ -4,6 +4,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
 @Mapper(componentModel = "jakarta")
+//@Mapper(componentModel = "cdi")
 //@Mapper
 public interface PersonMapper {
     @Mapping(target = "surname", source = "lastname")

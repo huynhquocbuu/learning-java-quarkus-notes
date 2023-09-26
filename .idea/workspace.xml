@@ -5,23 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d588bb1d-e459-46ca-9919-d50cf69b7277" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/rest/reactive/sample/GreetingResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/rest/reactive/sample/JwtResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/META-INF/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/infrastructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/shared/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/mappings/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/mappings/PersonDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/mappings/PersonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/publicKey.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/rsaPrivateKey.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/filters/ApiKeyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/filters/LoggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/payloads/LoginInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/payloads/LoginOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/rest/reactive/sample/GreetingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/rest/GreetingResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/rest/reactive/sample/JwtResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/rest/JwtResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/mappings/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/mappings/PersonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/utils/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +34,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -55,7 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "graalvm-17-22.3.3",
-    "last_opened_file_path": "E:/PrivatePlace/Learning/JavaStack/java-quarkus-notes/building-blocks",
+    "last_opened_file_path": "E:/PrivatePlace/Learning/JavaStack/learning-java-quarkus-notes/building-blocks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,6 +70,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PrivatePlace\Learning\JavaStack\learning-java-quarkus-notes\apps\rest-reactive-sample\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="Quarkus.rest-reactive-sample">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="java-quarkus-notes" />
@@ -78,6 +85,38 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="java-quarkus-notes" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="configuration" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="configuration" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/building-blocks/configuration" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>false</emulateTerminal>
+      </QsMavenRunConfiguration>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

@@ -1,5 +1,6 @@
-package rest.reactive.sample;
+package learning.quarkus.notes.rest;
 
+import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -10,9 +11,11 @@ import learning.quarkus.shared.mappings.PersonDto;
 import learning.quarkus.shared.mappings.PersonMapper;
 
 @Path("/hello")
+//@RolesAllowed({ "User", "Admin" })
 public class GreetingResource {
     @Inject
     PersonMapper personMapper;
+    @RolesAllowed({ "User", "Admin" })
     @GET
     @Path("/get")
     @Produces(MediaType.TEXT_PLAIN)

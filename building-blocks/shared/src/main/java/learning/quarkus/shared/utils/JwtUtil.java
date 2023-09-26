@@ -24,4 +24,15 @@ public class JwtUtil {
                 .upn("Alice").signWithSecret(secretKey);
         return output;
     }
+
+    public String genRS256Jwt(){
+
+        String token = Jwt.issuer("https://example.com/issuer")
+                .upn("jdoe@quarkus.io")
+                .groups(new HashSet<>(Arrays.asList("User", "Admin")))
+                .claim(Claims.birthdate.name(), "2001-07-13")
+                .sign();
+
+        return token;
+    }
 }
