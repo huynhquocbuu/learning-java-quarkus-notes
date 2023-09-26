@@ -11,6 +11,7 @@ import org.jboss.resteasy.reactive.RestResponse;
 
 import java.io.IOException;
 
+/*
 @Provider
 @Slf4j
 public class ApiKeyFilter implements ContainerRequestFilter {
@@ -30,3 +31,4 @@ public class ApiKeyFilter implements ContainerRequestFilter {
         }
     }
 }
+*/

@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d588bb1d-e459-46ca-9919-d50cf69b7277" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/publicKey.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/rsaPrivateKey.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/filters/ApiKeyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/filters/LoggingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/payloads/LoginInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/payloads/LoginOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/rest/reactive/sample/GreetingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/rest/GreetingResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/rest/reactive/sample/JwtResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/rest/JwtResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/mappings/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/mappings/PersonMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/utils/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/filters/ApiKeyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/filters/ApiKeyFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
