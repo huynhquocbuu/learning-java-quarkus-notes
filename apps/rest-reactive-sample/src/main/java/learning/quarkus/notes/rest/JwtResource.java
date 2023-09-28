@@ -8,7 +8,7 @@ import learning.quarkus.notes.configuration.payloads.LoginOutput;
 import learning.quarkus.shared.utils.JwtUtil;
 import lombok.extern.slf4j.Slf4j;
 
-@Path("/jwt")
+@Path("/auth")
 @Slf4j
 public class JwtResource {
     private JwtUtil jwtUtil;

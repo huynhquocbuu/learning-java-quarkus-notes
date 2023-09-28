@@ -1,5 +1,6 @@
 package learning.quarkus.notes.configuration.filters;
 
+import jakarta.annotation.Priority;
 import jakarta.ws.rs.container.ContainerRequestContext;
 import jakarta.ws.rs.container.ContainerRequestFilter;
 import jakarta.ws.rs.container.ContainerResponseContext;
@@ -15,13 +16,14 @@ import java.io.InputStream;
 
 @Provider
 @Slf4j
+//@Priority(100)
 public class LoggingFilter implements
         ContainerRequestFilter, ContainerResponseFilter {
     @Override
     public void filter(ContainerRequestContext requestContext) throws IOException {
         if(isJson(requestContext)){
             String jsonRequest = IOUtils.toString(requestContext.getEntityStream(), Charsets.UTF_8);
-            log.info("{} url: {}, \n request: {}",
+            log.info("request {}, url: {}, \n body: {}",
                     requestContext.getMethod(),
                     requestContext.getUriInfo().getPath(),
                     jsonRequest);
@@ -36,7 +38,7 @@ public class LoggingFilter implements
 
     @Override
     public void filter(ContainerRequestContext requestContext, ContainerResponseContext responseContext) throws IOException {
-        log.info("{} url: {}, \n response: {}",
+        log.info("response {}, url: {}, \n body: {}",
                 requestContext.getMethod(),
                 requestContext.getUriInfo().getPath(),
                 responseContext.getEntity());
