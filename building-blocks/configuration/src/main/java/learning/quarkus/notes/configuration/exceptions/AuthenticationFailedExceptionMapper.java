@@ -10,7 +10,7 @@ import jakarta.ws.rs.ext.Provider;
 import lombok.extern.slf4j.Slf4j;
 
 @Provider
-//@Priority(Priorities.AUTHENTICATION)
+@Priority(Priorities.AUTHENTICATION)
 @Slf4j
 public class AuthenticationFailedExceptionMapper implements ExceptionMapper<AuthenticationFailedException> {
     @Override

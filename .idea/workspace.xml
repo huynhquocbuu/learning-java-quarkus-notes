@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d588bb1d-e459-46ca-9919-d50cf69b7277" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/exceptions/AuthenticationFailedExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/exceptions/ForbiddenExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/filters/JwtFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/rest/GreetingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/rest/GreetingResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/rest/JwtResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/rest/JwtResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/filters/LoggingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/filters/LoggingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/exceptions/AuthenticationFailedExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/exceptions/AuthenticationFailedExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/exceptions/ForbiddenExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/exceptions/ForbiddenExceptionMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
