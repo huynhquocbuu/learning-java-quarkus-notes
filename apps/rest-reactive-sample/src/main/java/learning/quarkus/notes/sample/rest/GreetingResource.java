@@ -1,4 +1,4 @@
-package learning.quarkus.notes.rest;
+package learning.quarkus.notes.sample.rest;
 
 import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;

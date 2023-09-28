@@ -13,6 +13,7 @@
         <module>building-blocks/infrastructure</module>
         <module>building-blocks/shared</module>
         <module>building-blocks/configuration</module>
+        <module>building-blocks/application</module>
     </modules>
 
     <properties>

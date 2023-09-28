@@ -1,4 +1,4 @@
-package learning.quarkus.notes.configuration.payloads;
+package learning.quarkus.notes.auth.domain.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
