@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d588bb1d-e459-46ca-9919-d50cf69b7277" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/building-blocks/application/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/auth/adapters/JwtAuthAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/auth/application/port/in/LoginUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/auth/application/port/out/JwtAuthPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/auth/application/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/payloads/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/dtos/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/enums/ERole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/rest/GreetingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/sample/rest/GreetingResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/rest/JwtResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/auth/rest/AuthApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/payloads/LoginInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/auth/domain/models/LoginInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/payloads/LoginOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/auth/domain/models/LoginOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/utils/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +59,11 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
