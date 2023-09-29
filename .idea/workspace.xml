@@ -5,11 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d588bb1d-e459-46ca-9919-d50cf69b7277" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/entities/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/sample/rest/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/db/init-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/sample/application/port/UserUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/sample/application/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/learning/quarkus/notes/configuration/payloads/ResponseProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/infrastructure/src/main/java/learning/quarkus/notes/configuration/pesistences/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/infrastructure/src/main/java/learning/quarkus/notes/configuration/pesistences/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/dtos/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/enums/EAuthType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/utils/PasswordEncoderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e704b28a-0df9-4476-94fd-e68367c5989f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e704b28a-0df9-4476-94fd-e68367c5989f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e704b28a-0df9-4476-94fd-e68367c5989f/storage_v2/_src_/database/quarkus_note_db.gHlWOA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e704b28a-0df9-4476-94fd-e68367c5989f/storage_v2/_src_/database/quarkus_note_db.gHlWOA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e704b28a-0df9-4476-94fd-e68367c5989f/storage_v2/_src_/database/quarkus_note_db.gHlWOA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e704b28a-0df9-4476-94fd-e68367c5989f/storage_v2/_src_/database/quarkus_note_db.gHlWOA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e704b28a-0df9-4476-94fd-e68367c5989f/storage_v2/_src_/database/quarkus_note_db.gHlWOA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e704b28a-0df9-4476-94fd-e68367c5989f/storage_v2/_src_/database/quarkus_note_db.gHlWOA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/auth/rest/AuthApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/auth/rest/AuthApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/sample/rest/GreetingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/sample/rest/GreetingResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/auth/adapters/JwtAuthAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/auth/adapters/JwtAuthAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/auth/application/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/auth/application/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/infrastructure/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/shared/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/shared/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/dtos/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/dtos/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/entities/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/learning/quarkus/shared/utils/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,5 +284,21 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/building-blocks/application/src/main/java/learning/quarkus/notes/sample/application/service/UserService.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/learning/quarkus/notes/sample/rest/UserApi.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

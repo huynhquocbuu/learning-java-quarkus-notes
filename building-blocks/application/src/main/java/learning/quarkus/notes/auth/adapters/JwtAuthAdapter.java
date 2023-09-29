@@ -2,6 +2,7 @@ package learning.quarkus.notes.auth.adapters;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import learning.quarkus.notes.auth.application.port.out.JwtAuthPort;
+import learning.quarkus.shared.dtos.RoleDto;
 import learning.quarkus.shared.dtos.UserDto;
 import learning.quarkus.shared.enums.ERole;
 
@@ -10,7 +11,6 @@ import java.util.Optional;
 
 @ApplicationScoped
 public class JwtAuthAdapter implements JwtAuthPort {
-
     @Override
     public Optional<UserDto> localAuthenticate(String username, String password) {
         //Code here to modify.

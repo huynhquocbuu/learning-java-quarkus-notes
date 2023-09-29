@@ -10,10 +10,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>apps/rest-reactive-sample</module>
-        <module>building-blocks/infrastructure</module>
         <module>building-blocks/shared</module>
         <module>building-blocks/configuration</module>
         <module>building-blocks/application</module>
+        <module>building-blocks/infrastructure</module>
     </modules>
 
     <properties>
@@ -47,17 +47,18 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-hibernate-orm-panache -->
         <dependency>
             <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-hibernate-orm-panache</artifactId>
+            <artifactId>quarkus-hibernate-orm</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-jdbc-postgresql -->
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-jdbc-postgresql</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-hibernate-validator</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>

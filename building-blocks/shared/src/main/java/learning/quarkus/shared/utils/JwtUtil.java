@@ -13,35 +13,23 @@ import java.util.Set;
 
 @Singleton
 public class JwtUtil {
-    @ConfigProperty(name = "jwt.issuer")
-    String issuer;
-    @ConfigProperty(name = "jwt.expiration.in.seconds")
-    Long jwtExpirationInSeconds;
-//    public String genSimpleJwt(){
-//        return Jwt
-//                .issuer("https://example.com/issuer")
-//                .upn("jdoe@quarkus.io")
-//                .groups(new HashSet<>(Arrays.asList("User", "Admin")))
-//                .claim(Claims.birthdate.name(), "2001-07-13")
-//                .sign();
-//    }
 
-    public String genJwt(String username, Set<String> roles){
-        return genRS256Jwt(username, roles);
+    public String genJwt(String username, Set<String> roles, String issuer, Long jwtExpirationInSeconds){
+        return genRS256Jwt(username, roles, issuer, jwtExpirationInSeconds);
     }
 
-    public String genHS256Jwt(String secretKey){
+    public String genHS256Jwt(String secretKey, String issuer){
         var output = Jwt
-                .issuer("tpb.fico.dev")
+                .issuer(issuer)
                 .groups(new HashSet<>(Arrays.asList("User", "Admin")))
                 .claim(Claims.birthdate.name(), "2001-07-13")
                 .upn("Alice").signWithSecret(secretKey);
         return output;
     }
 
-    public String genRS256JwtFake(){
+    public String genRS256JwtFake(String issuer){
 
-        String token = Jwt.issuer("https://example.com/issuer")
+        String token = Jwt.issuer(issuer)
                 .upn("jdoe@quarkus.io")
                 .groups(new HashSet<>(Arrays.asList("User", "Admin")))
                 .claim(Claims.birthdate.name(), "2001-07-13")
@@ -50,8 +38,7 @@ public class JwtUtil {
         return token;
     }
 
-    public String genRS256Jwt(String username, Set<String> roles){
-        var aaa = (new Date()).getTime() + jwtExpirationInSeconds;
+    public String genRS256Jwt(String username, Set<String> roles, String issuer, Long jwtExpirationInSeconds){
         return Jwt.issuer(issuer)
                 .upn(username)
                 .groups(roles)

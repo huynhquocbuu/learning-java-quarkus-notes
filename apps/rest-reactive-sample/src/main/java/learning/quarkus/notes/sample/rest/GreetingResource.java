@@ -15,7 +15,7 @@ import learning.quarkus.shared.mappings.PersonMapper;
 public class GreetingResource {
     @Inject
     PersonMapper personMapper;
-    @RolesAllowed({ "User1", "Admin1" })
+    @RolesAllowed({ "User", "Admin" })
     @GET
     @Path("/get")
     @Produces(MediaType.TEXT_PLAIN)

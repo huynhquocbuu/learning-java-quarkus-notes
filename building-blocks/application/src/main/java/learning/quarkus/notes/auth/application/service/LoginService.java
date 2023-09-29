@@ -7,12 +7,18 @@ import learning.quarkus.notes.auth.application.port.out.JwtAuthPort;
 import learning.quarkus.notes.auth.domain.models.LoginInput;
 import learning.quarkus.notes.auth.domain.models.LoginOutput;
 import learning.quarkus.shared.utils.JwtUtil;
+import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 import java.util.Optional;
 import java.util.stream.Collectors;
 
 @ApplicationScoped
 public class LoginService implements LoginUseCase {
+    @ConfigProperty(name = "mp.jwt.verify.issuer")
+    String issuer;
+    @ConfigProperty(name = "jwt.expiration.in.seconds")
+    Long jwtExpirationInSeconds;
+
     @Inject
     JwtAuthPort jwtAuthPort;
     @Inject
@@ -31,7 +37,10 @@ public class LoginService implements LoginUseCase {
                                     userDtoOptional.get().getUsername(),
                                     userDtoOptional.get().getRoles()
                                             .stream()
-                                            .map(m -> m.name()).collect(Collectors.toSet())
+                                            .map(m -> m.name())
+                                            .collect(Collectors.toSet()),
+                                    issuer,
+                                    jwtExpirationInSeconds
                                     )
                             )
                     .build());
